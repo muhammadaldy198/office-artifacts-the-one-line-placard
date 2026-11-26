@@ -9,3 +9,4 @@ mkdirSync(outDir, { recursive: true });
 const target = join(outDir, "entry.txt");
 writeFileSync(target, ENTRY, "utf8");
 chmodSync(target, 0o644);
+// One line, one god, three speeds.
